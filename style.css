@@ -61,6 +61,66 @@ ul > li{
   padding: 10px;
   position: relative;
 }
+
+.redCircle1 {
+  border: 1px rgba(255, 0, 0, 0.1) solid;
+  background-color: rgba(255, 0, 0, 0.1);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 38px; top: 130px;
+  z-index: 0;
+} 
+.redCircle2 {
+  border: 1px rgba(255, 0, 0, 0.1) solid;
+  background-color: rgba(255, 0, 0, 0.1);
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 60px; left: -60px;
+}
+
+.blueCircle1 {
+  border: 1px rgba(255, 0, 0, 0.1) solid;
+  background-color: rgba(0, 0, 255, 0.1);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 38px; top: 130px;
+  z-index: 0;
+} 
+.blueCircle2 {
+  border: 1px rgba(255, 0, 0, 0.1) solid;
+  background-color: rgba(0, 0, 255, 0.1);
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 60px; left: -60px;
+}
+
+.greenCircle1 {
+  border: 1px rgba(255, 0, 0, 0.1) solid;
+  background-color: rgba(0, 255, 0, 0.1);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 38px; top: 130px;
+  z-index: 0;
+} 
+.greenCircle2 {
+  border: 1px rgba(255, 0, 0, 0.1) solid;
+  background-color: rgba(0, 255, 0, 0.1);
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 60px; left: -60px;
+}
 .userPhotoBohdan {
   background-size: contain;
   background-image: url('../man.jpg');
